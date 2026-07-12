@@ -49,6 +49,8 @@ apis:
       - type: REPL
         url: https://miragejs.com/repl/
 common:
+  - type: DomainSecurity
+    url: security/mirage-js-domain-security.yml
   - type: Website
     url: https://miragejs.com/
   - type: GitHub
