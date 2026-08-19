@@ -33,7 +33,7 @@ created: '2025-01-08'
 modified: '2026-04-28'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mirage-js/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: mirage-js:mirage-js
     name: Mirage JS
