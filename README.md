@@ -1,4 +1,4 @@
-# Mirage JS (mirage-js)
+# Mirage JS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,59 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mirage JS is an open source API mocking library for JavaScript. It lets you build, test, and share complete frontend features without depending on a backend by running in the browser as middleware with a built-in database, factories, route handlers, and serializers. Framework-agnostic across React, Vue, Angular, Ember, and modern test runners. Mirage is itself a library, not a hosted REST API.
+Mirage JS is an open source API mocking library for JavaScript that lets you build, test, and share complete frontend features without depending on a backend. It runs alongside your frontend code as in-browser middleware, providing a built-in database, factories for seeding data, route handlers, and serializers. It is framework-agnostic and works with React, Vue, Angular, Ember, and any modern test runner. Mirage JS is itself a library (not a hosted REST API), so this entry indexes its documentation and project resources.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mirage-js/refs/heads/main/apis.yml)
+**Areas:** API Mocking · Testing · JavaScript · Open Source
 
-## Scope
+## Mirage JS on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Mirage JS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mirage-js/](https://apis.io/providers/mirage-js/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - API Mocking
- - Testing
- - JavaScript
- - Open Source
+- [Mirage JS](https://apis.io/apis/mirage-js/mirage-js/) — Mirage JS is a JavaScript library for mocking APIs. It enables frontend developers to build complete features, write realistic tests, and share working…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Mirage JS
-JavaScript library for mocking APIs in development and tests.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://miragejs.com/](https://miragejs.com/)
+- [Mirage Js Domain Security](https://apis.io/security/mirage-js/mirage-js-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - API Mocking
- - Testing
- - JavaScript
+Published plans, tiers and prices.
 
-#### Properties
+- [Mirage Js Plans Pricing](https://apis.io/plans/mirage-js/mirage-js-plans-pricing/)
 
-- [Documentation](https://miragejs.com/docs/getting-started/introduction/)
-- [GettingStarted](https://miragejs.com/quickstarts/)
-- [Tutorial](https://miragejs.com/tutorial/intro/)
-- [APIReferenceDocumentation](https://miragejs.com/api/classes/server/)
-- [GitHub](https://github.com/miragejs/miragejs)
-- [REPL](https://miragejs.com/repl/)
+#### Rate limits (1)
 
-## Common Properties
+Published request limits.
+
+- [Mirage Js Rate Limits](https://apis.io/rate-limits/mirage-js/mirage-js-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Mirage Js Finops](https://apis.io/finops/mirage-js/mirage-js-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://miragejs.com/)
-- [GitHub](https://github.com/miragejs/miragejs)
-- [Discord](https://discord.gg/pPsdsrn)
-- [Twitter](https://twitter.com/miragejs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mirage-js/](https://apis.io/providers/mirage-js/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mirage JS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mirage-js/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
